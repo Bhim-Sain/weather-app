@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.weather_ui{
+    max-width:fit-content;
+    height: auto;
+    padding: 50px;
+    margin: auto;
+    background-image: linear-gradient(to bottom right,#333399,#ff00cc);
+    position: relative;
+}
+.circle1 , .circle2{
+background-image: linear-gradient(to bottom right, rgba(255,255,255,0.9),rgba(255,255,255,0.1));
+width: 100px;
+height: 100px;
+position: absolute;
+border-radius: 50%;
+}
+.circle1{
+    top: 0%;
+    left: 0%;
+}
+.circle2{
+    top:82%;
+    left: 74%;
+}
+.weather-container{
+    width:100%;
+    height:450px;
+    margin: auto;
+    padding: 10px;
+    border-radius:8px;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.4),rgba(255,255,255,0.2));
+    backdrop-filter: blur;
+    position: relative;
+}
+.input_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    padding: 0px 5px;
+}
+.input_style{
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: 0px;
+    padding:5px;
+    font-size:14px;
+    background-color: transparent;  
+}
+.input_container span{
+    background-color:lightgrey;
+    border-radius:100%;
+    height: 28px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.input_container span svg{
+    font-size:18px;
+}
+
+.weather_image , .weather_temp, .weather_location, .weather_report{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+}
+.weather_image img{
+    width:40%;
+}
+.weather_temp h1{
+    font-size:40px;
+    font-weight: 500;
+    word-spacing: -25px;
+    font-weight: 800;
+}
+.weather_location h1{
+    font-size:20px;
+}
+.weather_box{
+    width: 100%;
+    height:75px;
+    display: flex;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #333399;
+}
+.weather_icon{
+    width:40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather_icon img{
+    width: 100%;
+}
+.weather_info{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    justify-content: center;
+}
+.weather_info h3{
+    font-size:16px;
+}
+.weather_info p{
+    font-size:14px;
+}
+
+
